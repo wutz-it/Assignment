@@ -1,0 +1,25 @@
+Instruction to execute the program.
+
+Prerequisite modules:
+- feedparser
+- beautifulsoup4
+- requests
+- lxml
+** If any other modules couldn't be found, you can install them via 'pip install [module_name_in_error_msg]'
+
+Configuration and Setup:
+1. Download all source code files (*.py) from 'https://github.com/wutz-it/Assignment'
+2. Download input file (config.txt)
+3. On remote machine in the same path, create sub directory named 'config'
+4. Put file config.txt in to ./config
+
+To run the program:
+1. Open command line and change current directory to the place that al sources are located
+2. Type 'python main.py'
+3. The final result will be generated and located in ./result with the name 'consolidated_report.csv'
+
+Remark:
+- Edit ./config/config.txt to scrape more other symbols
+- News in the result will be the latest news of each day, all of news on particular day will be located in ./source name start with 'news_[soymbol].csv'
+- In some day there will be only quote info, there's no news and vice versa
+ 
